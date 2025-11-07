@@ -1,9 +1,50 @@
-export default function Introduction(){
+export default function Introduction() {
     document.title += " | Introduction"
-    return(
+    return (
         <>
             <h2>Introduction</h2>
-            <p>WOOOWNIADIASDJAISDIASJID</p>
+            <h3>Jacob W Kilcrease ~ Joyous Kiwi</h3>
+            <figure>
+                <img src="/images/jacob-cone-with-anderson.jpg" alt="Me in front of a brick wall in the Cone building" />
+                    <figcaption>
+                        <p>Me in front of a brick wall in the Cone building</p>
+                    </figcaption>
+            </figure>
+
+
+            <p id="intro">
+                Hello everyone I am Jacob Kilcrease. I am taking this class from a friend's recommendation and since I have
+                very little experience with HTML and CSS. I play a lot of video games and various mountain based activities,
+                mainly mountain biking and skiing. I have also been trying to re-learn to play the piano and drumset which I
+                used to play back in high school but stopped doing since coming to college.
+            </p>
+            <ul id="intro-list">
+                <li><strong>Personal Background:</strong> I have lived in Raleigh, NC my whole life and never moved houses.
+                    My family used to own a house in Beech mountain where we would frequently go so Boone is like a second
+                    home for me despite never living there full time.</li>
+                <li><strong>Professional Background:</strong> I have worked various jobs from home renovation to restaurants
+                    and movie theaters.</li>
+                <li><strong>Academic Background:</strong> Majoring in Computer Science with a concentration in AI,Robotics,
+                    and Game Design. I am in my Junior year and my goal is to push for my masters degree.</li>
+                <li><strong>Primary Computer:</strong> Lenovo, Windows 10, Desktop, in my apartment</li>
+                <li><strong>Courses I'm Taking, & Why:</strong>
+                    <ul>
+                        <li><strong>ITSC3688 - Computers and Their Impact on Society:</strong> I have always had an interest
+                            in sociology and ethics and with me mainly focusing on AI with my degree I felt it important to
+                            understand how modern technology has impacted people.</li>
+                        <li><strong>ITCS3156 - Intro to Machine Learning:</strong> There are small bits of personal research
+                            I have done with machine learning but it is important to take a full class on the subject
+                            especially if I am to make a career around it.</li>
+                        <li><strong>Math2164- Matrices and Linear Algebra:</strong> Very important mathematical base for
+                            many concepts in computer science.</li>
+                    </ul>
+                </li>
+
+
+
+            </ul>
+            <p id="quote">“Listen, don't believe in yourself. Believe in the me who believes in you.”</p>
+            <p id="quote-name">- Kazuki Nakashima</p>
         </>
     );
 }

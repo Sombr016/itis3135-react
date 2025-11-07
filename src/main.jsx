@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import Layout from './Layout.jsx'
 import Introduction from './Introduction.jsx'
+import Contract from './Contract.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,7 +13,8 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<App />} />
-           <Route path="/introduction" element={<Introduction />} />
+          <Route path="/introduction" element={<Introduction />} />
+          <Route path="/contract" element={<Contract />} />
         </Route>
       </Routes>
     </BrowserRouter>
