@@ -2,7 +2,7 @@ import './App.css'
 
 
 function App() {
-  document.title += " | ITIS 3135 Home"
+  document.title += "| Home"
   return (
     <>
       {/* these are empty tags called Fragments */}
