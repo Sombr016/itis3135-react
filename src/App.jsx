@@ -1,8 +1,8 @@
 import './App.css'
-import Header from './Header'
-import Footer from './Footer'
+
 
 function App() {
+  document.title += " | ITIS 3135 Home"
   return (
     <>
       {/* these are empty tags called Fragments */}

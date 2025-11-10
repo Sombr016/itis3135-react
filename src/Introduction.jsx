@@ -1,5 +1,5 @@
 export default function Introduction() {
-    document.title += " | Introduction"
+    document.title += " | ITIS 3135 Introduction"
     return (
         <>
             <h2>Introduction</h2>

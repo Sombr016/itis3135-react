@@ -1,4 +1,5 @@
 export default function Contract() {
+    document.title += " | ITIS 3135 Contract"
     return (
         <>
             <h2>Course Contract</h2>
