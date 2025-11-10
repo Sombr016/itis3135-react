@@ -3,10 +3,10 @@ export default function Footer() {
         <footer>
             <hr />
                 <nav>
-                    <a href="https://github.com/Sombr016" target="_blank">GitHub</a> ~ 
-                    <a href="https://www.freecodecamp.org/jacob_kilcrease" target="_blank"> freeCodeCamp</a> ~ 
-                    <a href="https://www.codecademy.com/profiles/JacobKilcrease" target="_blank"> Codeacademy</a> ~ 
-                    <a href="https://www.linkedin.com/in/jacob-kilcrease-722649328/" target="_blank"> LinkedIn</a>
+                    <a href="https://github.com/Sombr016" target="_blank">GitHub</a> ~&nbsp;
+                    <a href="https://www.freecodecamp.org/jacob_kilcrease" target="_blank">freeCodeCamp</a> ~&nbsp;
+                    <a href="https://www.codecademy.com/profiles/JacobKilcrease" target="_blank">Codeacademy</a> ~&nbsp;
+                    <a href="https://www.linkedin.com/in/jacob-kilcrease-722649328/" target="_blank">LinkedIn</a>
                 </nav>
                 <p>Designed by CreaseCode &copy; 2025</p>
         </footer>
