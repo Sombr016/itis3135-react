@@ -61,7 +61,6 @@ export default function ClassIntroduction() {
                         </ul>
                         <p>
                             <p id="quote"><em > "{studentData.quote.text}" </em></p>
-                            <br />
                              <p id="quote-name">-{studentData.quote.author}</p>
                         </p>
                         <nav>
