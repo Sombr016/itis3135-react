@@ -158,3 +158,6 @@ textarea{
 input[type="checkbox"]{
     display: inline-block;
 }
+label{
+    margin: 0 5px;
+}
